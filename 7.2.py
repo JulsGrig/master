@@ -5,9 +5,12 @@ with Image.open(filename) as img:
 
 one_img= img.resize((img.width//3,img.height//3))
 one_img.save("new.jpg")
+one_img.show()
 
 two_img=img.rotate(90)
 two_img.save("new2.jpg")
+two_img.show()
 
 three_img=img.rotate(270)
 three_img.save("new3.jpg")
+three_img.show()
