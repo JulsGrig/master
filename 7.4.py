@@ -1,5 +1,6 @@
 from PIL import Image
 water = "banana.png"
+
 with Image.open (water) as img_water:
    img_water.load()
 img_water = Image.open(water)
